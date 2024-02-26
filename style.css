@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+.main{
+    background-color: #cdeeff;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.main_img{
+    width: 300px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+.information{
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.left_text{
+    color: rgb(135, 58, 207);
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+    text-shadow:0px 5px 4px rgba(15,67,87,1);
+}
+.right_text{
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Dosis", sans-serif;
+    text-align: right;
+    text-shadow:0px 5px 4px rgba(15,67,87,1);
+}
+.right_text span{
+    color: rgb(6, 6, 255);
+    font-size: 60px;
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow:0px 5px 4px rgba(15,67,87,1);
+}
+.white_block{
+    background-color: white;
+    height: 100px;
+    border-radius: 35px;
+    box-shadow:0px 5px 4px rgba(15,67,87,1); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.block_text{
+    font-size: 25px;
+    color: rgb(19, 41, 232);
+    text-transform: uppercase;
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+}
+
+
+.button{
+    display: block;
+    width: 120px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+    transition: 0.2s all;
+}
+
+.button_block{
+    display: flex;
+    width: 315px;
+    justify-content: space-between;
+}
+
+.uncti{
+    background-color: white;
+    color: blue;
+}
+
+.button:hover{
+    border: 5px solid rgb(87, 87, 158);
+    padding-top: 5px;
+}
+
+.uncti:hover{
+    padding-top: 16px;
+}
+
+.grid{
+    display: grid;
+    grid-template: repeat(5, 220px) / repeat(6,220px);
+    column-gap: 15px;
+    margin: 0 auto;
+    row-gap: 15px;
+    width: 1480px;
+}
+
+.box{
+    background-color: #cdeeff;
+    border-radius: 6px;
+    box-shadow: 5px 4px 18px 22px rgba(34, 60, 80, 0.2);
+    padding: 7px 15px 7px 15px;
+}
+
+.num{
+    font-size: 75px;
+    font-weight: bold;
+    padding-top: 5px;
+    color: blue;
+    font-family: "Dosis", sans-serif;
+    text-align: right;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+    opacity: 0.6;
+}
+
+
+.round_vid{
+    width: 60px;
+    border-radius: 100%;
+    border: 3px solid wheat;
+}
+
+
+.preview{
+    width: 50px;
+    height: 58px;
+    border-radius: 100%;
+    transition: 0.2s all;
+}
+
+.preview:hover{
+    transform: scale(1.2);
+}
+
+.video_block{
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+.box_text{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Dosis", sans-serif;
+    color: blue;
+    font-weight: bold;
+    padding-bottom: 5px;
+
+}
